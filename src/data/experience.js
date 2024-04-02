@@ -5,7 +5,7 @@ const EXPERIENCE = {
 			duration: "Nov 2023 - Present",
 			logo: "./tsoft.jpeg",
 			logoalt: "twitter",
-			subtitle: "Classroom Assistant",
+			subtitle: "Python Developer",
             description: "In my role as a Python Developer, I played a key part in the creation and integration of two chatbots. Here are the main aspects of my involvement: - Collaborated closely with a team to develop and integrate two chatbots using OpenAI's LLM (Large Language Model). - Successfully integrated the chatbot with the Azure SDK (Botbuilder), leveraging Azure's chatbot services to ensure smooth functionality and optimal performance. - Implemented Continuous Integration and Continuous Deployment (CI/CD) practices, ensuring a streamlined and automated development pipeline for the chatbot. - Utilized Docker for containerization, facilitating the smooth deployment of the chatbot on the Argo platform.",
 		},
         {

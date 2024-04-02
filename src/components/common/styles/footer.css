@@ -1,16 +1,15 @@
 @import "../../../data/styles.css";
 
 .footer {
-	display: flex;
 	padding-top: 25px;
 	margin-top: 50px;
-	padding-bottom: 25px;
+	padding-bottom: 10px;
 	align-items: center;
 }
 
 .footer-links,
-.footer-credits {
-	flex-basis: 50%;
+.footer-credits p{
+	text-align: center;
 }
 
 .footer-links {
@@ -39,7 +38,7 @@
 }
 
 .footer-credits-text {
-	justify-content: flex-end;
+	text-align: center;
 	color: var(--tertiary-color);
 	font-size: 14px;
 	text-align: right;

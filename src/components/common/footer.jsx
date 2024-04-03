@@ -9,7 +9,7 @@ const Footer = () => {
 			<div className="footer">
 				<div className="footer-credits">
 					<div className="footer-credits-text">
-						<p>Santiago Saavedra</p>
+						<p>Martín Santiago Saavedra Rojas</p>
 					</div>
 				</div>
 			</div>

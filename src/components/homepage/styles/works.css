@@ -37,7 +37,8 @@
 }
 
 .work-duration {
-	padding-top: 7px;
+	opacity: 0.7;
+	padding-top: 8px;
 	padding-left: 9px;
 	font-size: 14px;
 	text-align: right;
@@ -49,4 +50,31 @@
 	padding-left: 50px;
 	font-size: 14px;
 	color: var(--secondary-color);
+}
+
+@media (max-width: 600px) {
+	.work-image {
+		height: 30px;
+		width: 30px;
+	}
+
+	.work-title {
+		font-size: 14px;
+		padding-left: 15px;
+	}
+
+	.work-subtitle {
+		font-size: 13px;
+		padding-left: 47px;
+	}
+
+	.work-duration {
+		font-size: 13px;
+		padding-left: 5px;
+	}
+
+	.work-description {
+		font-size: 13px;
+		padding-left: 0px;
+	}
 }

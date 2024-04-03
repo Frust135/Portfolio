@@ -58,9 +58,9 @@
 
 @media (max-width: 600px) {
 	.navbar {
-		margin-left: 25%;
-		margin-right: 25%;
-		width: 80%;
+		margin-left: 5%;
+		margin-right: 5%;
+		width: 100%;
 		font-size: 80%;
 	}
 

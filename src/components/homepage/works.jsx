@@ -29,6 +29,9 @@ const Works = () => {
 										</div>
 									</div>
 								</div>
+								<div className="work-duration-res">
+									{experience.duration}
+								</div>
 								<div className="work-subtitle">
 									{experience.subtitle}
 								</div>

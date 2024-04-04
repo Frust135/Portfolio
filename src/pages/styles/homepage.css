@@ -142,3 +142,9 @@
 		padding-top: 40px;
 	}	
 }
+
+@media (max-width: 392px){
+	.homepage-first-area-right-side{
+		margin-bottom: -90px;
+	}
+}

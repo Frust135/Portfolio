@@ -102,6 +102,9 @@ const Homepage = () => {
 							<Works />
 						</div>
 						<br></br>
+						<br></br>
+						<br></br>
+						<br></br>
 						<div className="homepage-videos" id="homepage-videos">
 							<Videos />
 						</div>

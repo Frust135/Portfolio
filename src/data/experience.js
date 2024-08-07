@@ -6,7 +6,7 @@ const EXPERIENCE = {
 			logo: "./tsoft.jpeg",
 			logoalt: "twitter",
 			subtitle: "Python Developer",
-            description: "In my role as a Python Developer, I played a key part in the creation and integration of two chatbots. Here are the main aspects of my involvement: - Collaborated closely with a team to develop and integrate two chatbots using OpenAI's LLM (Large Language Model). - Successfully integrated the chatbot with the Azure SDK (Botbuilder), leveraging Azure's chatbot services to ensure smooth functionality and optimal performance. - Implemented Continuous Integration and Continuous Deployment (CI/CD) practices, ensuring a streamlined and automated development pipeline for the chatbot. - Utilized Docker for containerization, facilitating the smooth deployment of the chatbot on the Argo platform.",
+            description: "- Developed robust APIs and automation solutions using Python. - Created a reusable chatbot framework with Langchain and GPT's LLM, streamlining processes for HR and Automation teams, deployed in Microsoft Teams using Azure. - Utilized Ollama AI model to automate document summarization, generating comprehensive knowledge bases in Confluence. - Automated processes using Kafka Consumers and Google Cloud Pub/Sub, enhancing operational efficiency and scalability.",
 		},
         {
 			title: "Poptimize",
@@ -14,7 +14,7 @@ const EXPERIENCE = {
 			logo: "./poptimize.jpeg",
 			logoalt: "twitter",
 			subtitle: "Full Stack Developer",
-            description: "My primary focus has been optimizing existing services and implementing Restful APIs. Key skills and contributions include: - Contributed to a 20% increase in school engagement by implementing new modules and functionalities while actively participating in the development and maintenance of RESTful APIs with Django. - Utilized jQuery to enhance the user interface and interactivity of web applications. - Optimized existing services using AWS S3 for scalable and secure data storage and retrieval. - Managed SQL databases and used Git version control.",
+            description: "- Boosted school engagement by 20% by implementing new functionalities and APIs in a learning platform. - Developed RESTful APIs using Django to streamline data exchange and utilized jQuery for an engaging user interface. - Optimized services with AWS S3 for secure and scalable data management.",
 		},
 		{
 			title: "Universidad Central (CL)",
@@ -22,7 +22,7 @@ const EXPERIENCE = {
 			logo: "./ucen.png",
 			logoalt: "twitter",
 			subtitle: "Classroom Assistant",
-            description: "I provided support to students in the Artificial Intelligence subject taught for 3 magisters, addressing inquiries and clarifying concepts on topics like linear regressions, neural networks, and convolutional neural networks for image classification.",
+            description: "- Supported students in the Artificial Intelligence subject, addressing inquiries on linear regressions, neural networks, and convolutional neural networks for image classification.",
 		},
 	],
 };

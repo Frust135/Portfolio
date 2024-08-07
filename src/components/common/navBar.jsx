@@ -43,6 +43,17 @@ const NavBar = (props) => {
 						</li>
 						<li className="nav-item">
 							<Link
+								to="homepage-videos"
+								spy={true}
+								smooth={true}
+								offset={-70}
+								duration={500}
+							>
+								Videos
+							</Link>
+						</li>
+						<li className="nav-item">
+							<Link
 								to="homepage-publish"
 								spy={true}
 								smooth={true}

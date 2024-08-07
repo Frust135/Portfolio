@@ -9,6 +9,7 @@ import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
 import Article from "../components/homepage/article";
 import Works from "../components/homepage/works";
+import Videos from "../components/homepage/videos";
 import AllProjects from "../components/projects/allProjects";
 
 import INFO from "../data/user";
@@ -99,6 +100,10 @@ const Homepage = () => {
 
 						<div className="homepage-works" id="homepage-works">
 							<Works />
+						</div>
+						<br></br>
+						<div className="homepage-videos" id="homepage-videos">
+							<Videos />
 						</div>
 						<br></br>
 						<div

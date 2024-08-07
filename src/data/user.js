@@ -13,7 +13,7 @@ const INFO = {
 
 	homepage: {
 		title: "Python Developer and AI Enthusiast",
-		description: "Hello! I'm Santiago, a Civil Engineer in Computer Science from Chile with three years of experience as a Python Developer, specializing in Django, and AI integration. I've collaborated on projects involving AI-driven chatbots using OpenAI's LLM and Azure Bot Services SDK. Additionally, I've contributed to university projects in AI, focusing on Nueral Networks and Reinforcement Learning. My passion lies in AI technologies, leveraging my engineering and software development skills.",
+		description: "Hello! I'm Santiago, a Civil Engineer in Computer Science from Chile with three years of experience as a Python Developer. I specialize in API development, task automation, and AI integration. Additionally, I've contributed to university projects in AI, focusing on Neural Networks and Reinforcement Learning. My passion lies in AI technologies, leveraging my engineering and software development skills.",
 	},
 
 	articles: {

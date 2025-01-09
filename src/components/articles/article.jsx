@@ -25,7 +25,7 @@ const Article = (props) => {
 								style={{ fontSize: "10px" }}
 								icon={faChevronRight}
 							/>
-						</div>
+						</div>						
 					</div>
 				</Link>
 			</div>

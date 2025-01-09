@@ -10,6 +10,9 @@
 .work-header{
 	display: flex;
 }
+.work-description li {
+	padding: 8px;
+}
 
 .work-image {
 	height: 35px;

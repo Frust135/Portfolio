@@ -3,6 +3,7 @@ import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 import Card from "../common/card";
 import "./styles/works.css";
 import EXPERIENCE from "../../data/experience";
+import parse from 'html-react-parser';
 
 const Works = () => {
 	return (
@@ -37,29 +38,22 @@ const Works = () => {
 								</div>
 								<div className="work-description">
 									{experience.description.includes("-") ? (
-										<p>
-											{
-												experience.description.split(
-													"-"
-												)[0]
-											}
-										</p>
+										<p>{parse(experience.description.split("-")[0])}</p>
 									) : (
-										<p>{experience.description}</p>
+										<p>{parse(experience.description)}</p>
 									)}
 									<ul>
 										{experience.description.includes("-")
 											? experience.description
-													.split("-")
-													.slice(1)
-													.map((item, index) => (
-														<li key={index}>
-															{item}
-														</li>
-													))
+												.split("-")
+												.slice(1)
+												.map((item, index) => (
+													<li key={index}>{parse(item)}</li>
+												))
 											: null}
 									</ul>
 								</div>
+
 							</div>
 						))}
 					</div>

@@ -17,6 +17,13 @@ const Article = (props) => {
                     {description}
                 </div>
                 <div className="homepage-article-link">
+                    <a href={`https://ieeexplore.ieee.org/document/10814833`} target="_blank" rel="noopener noreferrer" style={{ marginRight: "40px" }}>
+                        IEEE Explorer{" "}
+                        <FontAwesomeIcon
+                            style={{ fontSize: "10px" }}
+                            icon={faChevronRight}
+                        />
+                    </a>
                     <a href={`/articles/${link}.pdf`} target="_blank" rel="noopener noreferrer">
                         Read article{" "}
                         <FontAwesomeIcon
@@ -24,7 +31,7 @@ const Article = (props) => {
                             icon={faChevronRight}
                         />
                     </a>
-                </div>
+                </div>                
             </div>
         </div>
     );
